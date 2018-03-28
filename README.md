@@ -21,7 +21,7 @@ The Client object is the thing that actually handles all the communication. This
 ```
 
 ### Step 3: Consume the data
-You should now understand the basics of using JAX-RS client APIs. Now you should manipulate this data into a undertand format in your program like POO objects like this example:
+You should now understand the basics of using JAX-RS client APIs. Now you should manipulate this data into a undertand format in your program with POO objects like this example:
 
 ```
 String json = EntityUtils.toString(result.getEntity(), "UTF-8");
