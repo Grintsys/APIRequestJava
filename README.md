@@ -28,7 +28,7 @@ String json = EntityUtils.toString(result.getEntity(), "UTF-8");
 Gson gson = new Gson();
 List<Device> devices = gson.fromJson(json, new TypeToken<List<Device>>(){}.getType());
 ```
-Now your data a manipulable object so you can do everything.
+Now your data is a manipulable object so you can do anything.
 
 ```
 devices.forEach((d) -> {
